@@ -1,8 +1,7 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Password Generator
+In the app we try to optimize and work without loading.
+Besically we use useState, useEffect, useCallbak, useRef. And every hook is contribute to make the app.
+useState is help to change data in UI and also invole to get raw data & convert in meningfull data.
+useEffect wrok to rerender the components in every dependency
+useCallback use to optimize the app. they check chase memory in every time that component update
+useRef is middel between input field and copy button
